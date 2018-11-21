@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <source_groups>
+        <source_group_e9e6775b-8fd6-4ce1-b545-854b8a35ac10>
+            <compiler_flags>
+                <compiler_flag>-fms-extensions</compiler_flag>
+                <compiler_flag>-fms-compatibility</compiler_flag>
+                <compiler_flag>-fms-compatibility-version=19</compiler_flag>
+            </compiler_flags>
+            <cpp_standard>c++17</cpp_standard>
+            <cross_compilation>
+                <target>
+                    <abi>unknown</abi>
+                    <arch>x86_64</arch>
+                    <sys>unknown</sys>
+                    <vendor>unknown</vendor>
+                </target>
+                <target_options_enabled>0</target_options_enabled>
+            </cross_compilation>
+            <name>C++ Source Group</name>
+            <source_extensions>
+                <source_extension>.cpp</source_extension>
+                <source_extension>.cxx</source_extension>
+                <source_extension>.cc</source_extension>
+                <source_extension>.hpp</source_extension>
+                <source_extension>.h</source_extension>
+            </source_extensions>
+            <source_paths>
+                <source_path>../src</source_path>
+            </source_paths>
+            <status>enabled</status>
+            <type>C++ Source Group</type>
+        </source_group_e9e6775b-8fd6-4ce1-b545-854b8a35ac10>
+    </source_groups>
+    <version>7</version>
+</config>
